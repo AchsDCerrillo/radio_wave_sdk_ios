@@ -57,7 +57,7 @@ jobs:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.POD_TRUNK_TOKEN }}
         run: |
           set -eo pipefail
-          pod lib lint release-framework/RadioWaveSDK.podspec --allow-warnings
+          pod lib lint RadioWaveSDK.podspec --allow-warnings
           pod repo push Radio_Wave_SDK RadioWaveSDK.podspec --allow-warnings
 
 
