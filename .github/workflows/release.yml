@@ -4,8 +4,9 @@ name: Release Deploy
 
 # Controls when the workflow will run
 on:
-  release:
-    types: [released]
+  push:
+    branches:
+      - main  # Adjust this if you want to trigger on a different branch
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

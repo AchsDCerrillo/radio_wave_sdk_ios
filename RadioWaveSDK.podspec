@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'RadioWaveSDK'
-    spec.version                  = '0.0.22'
+    spec.version                  = '0.0.28'
     spec.homepage                 = 'https://huskydecibels.com'
-    spec.source                   = { :http => "https://s3.us-west-1.amazonaws.com/ios.sdk.huskydecibels.com/RadioWaveSDK.xcframework.zip" }
+    spec.source                   = { :git => "https://github.com/AchsDCerrillo/radio_wave_sdk_ios.git", :tag => "0.0.3" }
     spec.authors                  = 'AchsDCerrillo'
     spec.license                  = { :type => 'MIT', :text => 'License text'}
     spec.summary                  = 'iOS SDK for Radio Wave'
