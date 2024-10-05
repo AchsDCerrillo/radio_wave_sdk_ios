@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'RadioWaveSDK'
-    spec.version                  = '0.0.42'
+    spec.version                  = '0.0.43'
     spec.homepage                 = 'https://huskydecibels.com'
     spec.source                   = { :http => "https://s3.us-west-1.amazonaws.com/ios.sdk.huskydecibels.com/RadioWaveSDK.xcframework.zip" }
     spec.authors                  = 'AchsDCerrillo'
@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
                 
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '16.0'
-    spec.dependency 'FBSDKCoreKit', '5.15.1'
-    spec.dependency 'FBSDKLoginKit', '5.15.1'
+    spec.dependency 'FBSDKCoreKit', '16.1.3'
+    spec.dependency 'FBSDKLoginKit', '16.1.3'
     spec.dependency 'FirebaseAuth', '10.16.0'
     spec.dependency 'FirebaseCore', '10.16.0'
     spec.dependency 'FirebaseCrashlytics', '10.16.0'
